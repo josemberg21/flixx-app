@@ -247,7 +247,6 @@ async function search() {
 function displaySearchResults(results) {
     document.querySelector('#search-results').innerHTML = '';
     document.querySelector('#search-results-heading').innerHTML = '';
-    document.querySelector('#pagination').innerHTML = '';
 
     results.forEach(result => {
         const div = document.createElement('div');
